@@ -1,0 +1,68 @@
+canvas {
+	cursor:none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body {
+	background:darkgray;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	align-items: center;
+}
+
+#wrapper {
+	width: 850px;
+	height: 500px;
+	margin: 0 auto;;
+}
+
+html,
+body,
+.content {
+	height: 100%;
+}
+
+.content {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+header {
+	background-color:  #484848;
+	height: 98px;
+	color:  #000000;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+p {
+	color:  #000000;
+	font-size: 36px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	margin: 2%;
+}
+
+footer {
+	background-color:  #484848;
+	height: 100px;
+	color:  #000000;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
